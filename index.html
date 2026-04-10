@@ -610,13 +610,32 @@ footer {
   .hero-eyebrow { font-size: 0.6rem; }
   .hero h1 { font-size: 1.5rem; }
 }
+.land-no {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.mini-link {
+  font-size: 12px;
+  margin-left: 8px;
+  text-decoration: none;
+  color: #2f4a2f;
+  border-bottom: 1px dashed rgba(47,74,47,0.4);
+  transition: 0.2s;
+}
+
+.mini-link:hover {
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+
 </style>
 </head>
 <body>
 
 <!-- LOADER -->
 <div id="loader">
-  <div class="loader-wordmark">The Mango Grove Estate</div>
+  <div class="loader-wordmark">สวนมะม่วงทำเลสวย</div>
 </div>
 
 <!-- HEADER -->
@@ -642,7 +661,7 @@ footer {
       <div class="hero-cta-row">
         <a href="https://line.me/R/ti/p/~newmangda09" target="_blank" class="btn-gold">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63h2.386c.346 0 .627.285.627.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63.346 0 .628.285.628.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg>
-          ติดต่อผ่าน LINE
+          ติดต่อผ่าน LINE(น้องโย)
         </a>
         <a href="tel:0619964113" class="btn-ghost">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11.5a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .84h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
@@ -680,104 +699,98 @@ footer {
 
 <div class="divider"></div>
 
-<!-- FEATURES -->
-<section class="section">
-  <div class="section-inner">
-    <div class="reveal">
-      <div class="section-tag">Property Details</div>
-      <h2 class="section-title">คุณสมบัติ<em>ของที่ดิน</em></h2>
-      <p class="section-subtitle">ที่ดินสมบูรณ์แบบพร้อมสาธารณูปโภคครบครัน เหมาะทั้งการลงทุนเชิงพาณิชย์และที่อยู่อาศัยส่วนตัว</p>
-    </div>
-    <div class="features-grid reveal">
-      <div class="feature-item">
-        <div class="feature-icon">🌳</div>
-        <div class="feature-title">สวนมะม่วงครบวงจร</div>
-        <div class="feature-desc">มะม่วงน้ำดอกไม้และพันธุ์พิเศษกว่า 200 ต้น ให้ผลผลิตแล้ว พร้อมระบบน้ำชลประทานในสวน</div>
-      </div>
-      <div class="feature-item">
-        <div class="feature-icon">📋</div>
-        <div class="feature-title">โฉนดสะอาด พร้อมโอน</div>
-        <div class="feature-desc">โฉนดครุฑแดง ปลอดภาระผูกพัน สามารถโอนกรรมสิทธิ์ได้ทันที ไม่มีข้อพิพาท</div>
-      </div>
-      <div class="feature-item">
-        <div class="feature-icon">⚡</div>
-        <div class="feature-title">สาธารณูปโภคครบ</div>
-        <div class="feature-desc">ไฟฟ้า 3 เฟสพร้อมใช้งาน น้ำประปาเข้าถึง อินเทอร์เน็ตความเร็วสูง และถนนคอนกรีต</div>
-      </div>
-      <div class="feature-item">
-        <div class="feature-icon">🚗</div>
-        <div class="feature-title">การเข้าถึงสะดวก</div>
-        <div class="feature-desc">ถนนคอนกรีตเชื่อมถึงแปลง ห่างทางหลวงหมายเลข 1 เพียงไม่กี่นาที โลจิสติกส์ง่าย</div>
-      </div>
-      <div class="feature-item">
-        <div class="feature-icon">🌿</div>
-        <div class="feature-title">ดินคุณภาพสูง</div>
-        <div class="feature-desc">ดินร่วนปนทราย ระบายน้ำดี เหมาะกับพืชไร่ ผลไม้ และการเกษตรแบบออร์แกนิก</div>
-      </div>
-      <div class="feature-item">
-        <div class="feature-icon">📍</div>
-        <div class="feature-title">ทำเลใจกลางกำแพงเพชร</div>
-        <div class="feature-desc">ตำบลเทพนคร อำเภอเมือง ใกล้แหล่งท่องเที่ยวมรดกโลก ศักยภาพเพิ่มมูลค่าสูง</div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <div class="divider"></div>
-
 <!-- SPECS TABLE -->
 <section class="section">
   <div class="section-inner">
     <div class="split reveal">
+
+      <!-- LEFT -->
       <div>
         <div class="section-tag">Legal & Technical</div>
         <h2 class="section-title">ข้อมูล<em>ที่ดิน</em></h2>
-        <p class="section-subtitle">รายละเอียดที่ดินอย่างครบถ้วนเพื่อความโปร่งใส พร้อมให้ตรวจสอบกับเจ้าหน้าที่สำนักงานที่ดิน</p>
+        <p class="section-subtitle">
+          รายละเอียดที่ดินอย่างครบถ้วน โปร่งใส ตรวจสอบได้จริง
+        </p>
+
         <table class="specs-table">
           <tr>
             <td>พื้นที่รวม</td>
-            <td>6 ไร่ (9,600 ตารางเมตร)</td>
+            <td>6 ไร่ (9,600 ตร.ม.)</td>
           </tr>
           <tr>
-            <td>ประเภทเอกสารสิทธิ์</td>
+            <td>เอกสารสิทธิ์</td>
             <td>โฉนดที่ดิน <span class="badge-inline">พร้อมโอน</span></td>
           </tr>
           <tr>
             <td>เลขที่โฉนด</td>
-            <td>อ้างอิง 83897</td>
+            <td>
+              83897 
+              <a href="https://landsmaps.dol.go.th/" target="_blank" class="mini-link">
+                🔍 ตรวจสอบ
+              </a>
+            </td>
           </tr>
           <tr>
             <td>ที่ตั้ง</td>
             <td>อ.เมือง จ.กำแพงเพชร</td>
           </tr>
           <tr>
-            <td>พิกัด GPS</td>
-            <td>16.3829°N, 99.6141°E</td>
+            <td>พิกัด</td>
+            <td>
+              16.3829, 99.6141
+              <a href="https://www.google.com/maps?q=16.3829,99.6141" target="_blank" class="mini-link">
+                📍 เปิดแผนที่
+              </a>
+            </td>
           </tr>
           <tr>
-            <td>ประเภทการใช้ที่ดิน</td>
+            <td>การใช้ที่ดิน</td>
             <td>เกษตรกรรม / ที่พักอาศัย</td>
           </tr>
           <tr>
-            <td>สภาพภาระ</td>
-            <td>ปลอดภาระผูกพัน <span class="badge-inline">ไม่มีจำนอง</span></td>
+            <td>ภาระผูกพัน</td>
+            <td>ปลอดภาระ <span class="badge-inline">ไม่มีจำนอง</span></td>
           </tr>
-          <tr>
-            <td>ราคาเสนอขาย</td>
-            <td><strong>2,700,000 บาท</strong> (ต่อรองได้)</td>
+          <tr class="price-row">
+            <td>ราคา</td>
+            <td>
+              <strong>2,700,000 บาท</strong>
+              <span class="price-note">(ต่อรองได้)</span>
+            </td>
           </tr>
         </table>
-      </div>
-      <div>
-        <div class="location-visual">
-          <iframe src="https://maps.google.com/maps?q=16.3829180,99.6141100&z=16&t=k&output=embed&hl=th" allowfullscreen loading="lazy"></iframe>
-          <div class="map-overlay-tag">16.3829°N · 99.6141°E</div>
+
+        <!-- CTA เพิ่ม -->
+        <div class="specs-cta">
+          <!-- <a href="https://line.me/R/ti/p/~newmangda09" target="_blank" class="btn-gold">
+          </a> -->
         </div>
       </div>
+
+      <!-- RIGHT -->
+      <div>
+        <div class="location-visual">
+          <iframe 
+            src="https://maps.google.com/maps?q=16.3829180,99.6141100&z=16&t=k&output=embed&hl=th"
+            allowfullscreen loading="lazy">
+          </iframe>
+
+          <div class="map-overlay-tag">
+            📍 16.3829°N · 99.6141°E
+          </div>
+
+          <!-- ปุ่มลอย -->
+          <a href="https://www.google.com/maps?q=16.3829,99.6141" target="_blank" class="map-btn">
+            เปิด Google Maps
+          </a>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
-
 <div class="divider"></div>
 
 <!-- GALLERY -->
@@ -785,27 +798,34 @@ footer {
   <div class="section-inner reveal">
     <div class="section-tag">Visual Survey</div>
     <h2 class="section-title">ภาพรวม<em>ของแปลงที่ดิน</em></h2>
+
     <div class="gallery-grid">
+
       <div class="gal-item tall">
         <img src="./images/aerial-overview.jpg" alt="มุมสูงสวนมะม่วง">
-        <div class="gal-label">Aerial Overview</div>
+        <div class="gal-label">🌍 มุมสูงภาพรวม</div>
       </div>
+
       <div class="gal-item">
         <img src="./images/mango-canopy.jpg" alt="ร่มเงาต้นมะม่วง">
-        <div class="gal-label">Mango Canopy</div>
+        <div class="gal-label">🌳 บรรยากาศภายในสวน</div>
       </div>
+
       <div class="gal-item">
-        <img src="./images/access-road.jpg" alt="พื้นที่รอบข้าง">
-        <div class="gal-label">Access Road</div>
+        <img src="./images/access-road.jpg" alt="ถนนเข้าแปลง">
+        <div class="gal-label">🚗 ถนนเข้าถึงสะดวก</div>
       </div>
+
       <div class="gal-item">
-        <img src="./images/water-source.jpg" alt="หนองน้ำในสวน">
-        <div class="gal-label">แหล่งน้ำ / ระบบน้ำ</div>
+        <img src="./images/water-source.jpg" alt="แหล่งน้ำในสวน">
+        <div class="gal-label">💧 แหล่งน้ำในพื้นที่</div>
       </div>
+
       <div class="gal-item">
-        <img src="./images/soil-profile.jpg" alt="คุณภาพดิน">
-        <div class="gal-label">Soil Profile</div>
+        <img src="./images/soil-profile.jpg" alt="ทำเลใกล้เมือง">
+        <div class="gal-label">🚗 ห่างตัวเมืองเพียง 12 นาที</div>
       </div>
+
     </div>
   </div>
 </section>
@@ -814,34 +834,74 @@ footer {
 <section class="section invest-section">
   <div class="section-inner">
     <div class="invest-grid reveal">
+
+      <!-- LEFT -->
       <div class="invest-left">
         <div class="section-tag" style="color:var(--gold);">Investment Case</div>
-        <h2 class="section-title" style="color:white;">ศักยภาพ<em>การลงทุน</em></h2>
-        <p class="section-subtitle">ที่ดินแห่งนี้เหมาะสำหรับนักลงทุนที่มองหาผลตอบแทนระยะยาว ทั้งจากรายได้เกษตรกรรมและมูลค่าที่ดินที่เพิ่มขึ้น</p>
-        <p style="margin-top:24px; font-size:0.82rem; color:rgba(255,255,255,0.35); letter-spacing:0.06em;">กำแพงเพชร — มรดกโลก UNESCO ทำเลแห่งอนาคต</p>
+
+        <h2 class="section-title" style="color:white;">
+          ศักยภาพ<em>การลงทุน</em>
+        </h2>
+
+        <p class="section-subtitle">
+          ที่ดิน 6 ไร่ พร้อมสวนมะม่วงให้ผลผลิตแล้ว เหมาะทั้งสร้างรายได้ทันที 
+          และเก็งกำไรระยะยาวในทำเลใกล้เมืองกำแพงเพชร
+        </p>
+
+        <!-- จุดขายแรง -->
+        <ul class="invest-points">
+          <li>✔ มีผลผลิตแล้ว สร้างรายได้ทันที</li>
+          <li>✔ ห่างตัวเมืองเพียง 12 นาที</li>
+          <li>✔ โฉนดพร้อมโอน ปลอดภาระ</li>
+        </ul>
+
+       <br> <p class="invest-note">
+          📍 กำแพงเพชร — เมืองมรดกโลก UNESCO ทำเลศักยภาพเติบโตต่อเนื่อง
+        </p> <br>
+
+        <!-- CTA -->
+        <!-- <a href="https://line.me/R/ti/p/~newmangda09" target="_blank" class="btn-gold invest-btn">
+          💬 สอบถามโอกาสลงทุน
+        </a> -->
       </div>
+
+      <!-- RIGHT -->
       <div class="invest-cards">
+
         <div class="invest-card">
           <div class="invest-card-icon">🌾</div>
-          <div class="invest-card-title">Agri-Investment</div>
-          <div class="invest-card-desc">รายได้จากมะม่วงส่งออก ออร์แกนิกฟาร์ม หรือต่อยอดสวนผลไม้พรีเมียม</div>
+          <div class="invest-card-title">เกษตรสร้างรายได้</div>
+          <div class="invest-card-desc">
+            สวนมะม่วงพร้อมเก็บเกี่ยว สร้างรายได้ต่อเนื่อง หรือพัฒนาเป็นฟาร์มพรีเมียม
+          </div>
         </div>
+
         <div class="invest-card">
           <div class="invest-card-icon">🏡</div>
-          <div class="invest-card-title">Private Estate</div>
-          <div class="invest-card-desc">สร้างบ้านสวนส่วนตัว บรรยากาศธรรมชาติ ใกล้เมืองเพียง 12 นาที</div>
+          <div class="invest-card-title">บ้านสวนส่วนตัว</div>
+          <div class="invest-card-desc">
+            เหมาะสร้างบ้านพักท่ามกลางธรรมชาติ ใกล้เมือง เดินทางสะดวก
+          </div>
         </div>
+
         <div class="invest-card">
-          <div class="invest-card-icon">🏨</div>
-          <div class="invest-card-title">Resort & Glamping</div>
-          <div class="invest-card-desc">พัฒนาเป็นที่พักเชิงเกษตร โฮมสเตย์ หรือ Glamping ใกล้แหล่งท่องเที่ยว</div>
+          <div class="invest-card-icon">🏕️</div>
+          <div class="invest-card-title">รีสอร์ท / Glamping</div>
+          <div class="invest-card-desc">
+            พัฒนาเป็นที่พักเชิงเกษตร หรือแคมป์ปิ้งแนวธรรมชาติ รองรับนักท่องเที่ยว
+          </div>
         </div>
-        <div class="invest-card">
+
+        <div class="invest-card highlight">
           <div class="invest-card-icon">📈</div>
-          <div class="invest-card-title">Capital Appreciation</div>
-          <div class="invest-card-desc">ถือครองระยะยาว มูลค่าที่ดินในกำแพงเพชรเติบโตต่อเนื่องตามการพัฒนาพื้นที่</div>
+          <div class="invest-card-title">มูลค่าเพิ่มระยะยาว</div>
+          <div class="invest-card-desc">
+            ที่ดินทำเลดีใกล้เมือง ราคามีแนวโน้มเติบโตต่อเนื่อง เหมาะถือครอง
+          </div>
         </div>
+
       </div>
+
     </div>
   </div>
 </section>
@@ -849,32 +909,48 @@ footer {
 <!-- AGENT -->
 <section class="section agent-section">
   <div class="section-inner">
+
     <div style="text-align:center; margin-bottom:32px;" class="reveal">
       <div class="section-tag" style="justify-content:center;">ติดต่อเรา</div>
       <h2 class="section-title">สอบถาม<em>เพิ่มเติม</em></h2>
+      <p style="opacity:0.8; font-size:14px;">
+        สนใจที่ดิน แอดไลน์หรือโทรได้ทันที พร้อมให้คำปรึกษาฟรี
+      </p>
     </div>
+
     <div class="agent-card reveal">
       <div class="agent-monogram">
         <span>9YO</span>
       </div>
+
       <div class="agent-right">
+        <h3 style="margin-bottom:6px;">น้องโย (Agent)</h3>
+        <p style="font-size:13px; opacity:0.8; margin-bottom:16px;">
+          ผู้ดูแลแปลงโดยตรง · ตอบไว · นัดดูที่ได้ทันที
+        </p>
+
         <a href="https://line.me/R/ti/p/~newmangda09" target="_blank" class="btn-gold">
-          ติดต่อผ่าน LINE
+          💬 แอด LINE คุยตอนนี้
         </a>
+
         <a href="tel:0619964113" class="btn-ghost" style="border-color: rgba(47,74,47,0.4); color: var(--moss);">
-          โทรหาเราเลย
+          📞 โทร: 061-996-4113
         </a>
-        <p style="font-size:0.7rem; color:var(--warm-mid); margin-top:4px;">
-          นัดชมแปลงจริง · ทุกวัน ไม่มีวันหยุด
+
+        <p style="font-size:0.75rem; color:var(--warm-mid); margin-top:6px;">
+          🕒 นัดชมแปลงจริงได้ทุกวัน (ไม่มีวันหยุด)
         </p>
       </div>
     </div>
+
   </div>
+  
 </section>
+
 
 <!-- STICKY BAR -->
 <div class="sticky-bar">
-  <span class="sticky-label">สนใจซื้อ?</span>
+  <span class="sticky-label">ต้องการรายละเอียดเพิ่มเติม?</span>
   <a href="https://line.me/R/ti/p/~newmangda09" target="_blank" class="sticky-link green">
     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.630 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63h2.386c.346 0 .627.285.627.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63.346 0 .628.285.628.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg>
     LINE ทันที
@@ -887,7 +963,7 @@ footer {
 
 <!-- FOOTER -->
 <footer>
-  <div class="footer-brand">The Mango Grove Estate · กำแพงเพชร</div>
+  <div class="footer-brand">สวนมะม่วงทำเลสวย · กำแพงเพชร</div>
   <div class="footer-note">
     ราคาเสนอขาย ณ ปัจจุบัน อาจมีการเปลี่ยนแปลง กรุณาตรวจสอบกับนายหน้าก่อนตัดสินใจ<br>
     ข้อมูลถูกต้องตามโฉนดที่ดิน · (ตัวแทนโดยตรง) · © 2026
